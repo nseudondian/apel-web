@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    /* background: url("https://res.cloudinary.com/nseabasi/image/upload/v1602621911/background_f1pnt6.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    ; */
+}
+
+.nav-items {
+    padding-top: 1rem;
+    display: flex;
+}
+
+.nav-items1 {
+    display: flex;
+}
+
+.nav-items1 a {
+    color: gray;
+}
+
+.nav-items1 li :hover {
+    color: lime;
+}
+
+.nav-items2 {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-items2 a {
+    color: #74ba35;
+}
+
+.nav-items2 li :hover {
+    color: navy;
+    text-decoration-color: none;
+}
+
+li {
+    list-style: none;
+    margin: auto 4px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.logo img {
+    width: 3rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.logo {
+    display: flex;
+}
+
+.sidebar-toggle {
+    margin-left: 75%;
+    margin-top: 2rem;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    background: var(--clr-white);
+    display: grid;
+    /* grid-template-rows: auto 1fr auto; */
+    row-gap: 1rem;
+    box-shadow: var(--clr-red-dark);
+    transition: 1s;
+    transform: translate(30%);
+    background: white;
+    padding: 8px;
+}
+
+.show-sidebar {
+    transform: translate(100%);
+}
+
+.sidebar button {
+    background: #81d742;
+    margin-left: 5%;
+    margin-top: 0.5rem;
+    border: none;
+    color: whitesmoke;
+    height: 4rem;
+    width: 15rem;
+    padding: 0.5rem 1rem
+}
+
+.sidebar button :hover {
+    background-color: #499e08;
+}
+
+#social-media {
+    display: flex;
+}
+
+#socials {
+    font-size: 10px;
+    font-weight: lighter;
+    color: rgb(202, 199, 199);
+}
+
+aside .fa-search {
+    margin-left: 30%;
+    margin-top: -0.5rem;
+    color: gray;
+}
+
+aside .fa-bars {
+    color: #191d16;
+}
+
+aside li {
+    margin: 10px;
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+aside li a {
+    color: rgb(25, 39, 25);
+    font-weight: bold;
+}
+
+.fa-times {
+    margin-left: 15rem;
+    margin-top: 5px;
+}
+
+aside li :hover {
+    color: #499e08;
+}
+
+#caro {
+    display: flex;
+    /* z-index: -1; */
+}
+
+#caro p {
+    margin-top: 5rem;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 4px;
+}
+
+#caro button {
+    margin-top: 2rem;
+    background-color: rgb(12, 12, 12);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5rem;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#cards {
+    background-color: #f2f4f7;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.card-body {
+    background: #f2f4f7;
+}
+
+.card-body img {
+    margin-left: 55px;
+}
+
+.card {
+    height: 65vh;
+}
+
+.caro-btn1 {
+    margin-top: -5rem;
+    margin-left: -20rem;
+}
+
+.caro-btn2 {
+    margin-top: -5rem;
+    margin-right: -20rem;
+}
+
+.last {
+    color: #499e08;
+}
+
+#short-green {
+    height: 30vh;
+    background-color: #66cc18;
+}
+
+.button-p {
+    display: flex;
+}
+
+#short-green button {
+    margin-left: auto;
+    margin-right: auto;
+    background: whitesmoke;
+    color: #499e08;
+    border: none;
+    width: 150px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.green-p {
+    display: flex;
+}
+
+.green-p p {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+#short-grey {
+    height: 30vh;
+    background-color: #f2f4f7;
+}
+
+.grey-p {
+    display: flex;
+}
+
+.grey-p h1 {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grey2 {
+    display: flex;
+}
+
+.tailor {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lemon-green {
+    height: 100vh;
+    background-color: #e1fad2;
+    padding-top: 20px;
+}
+
+.lemonpara {
+    margin-top: 30px;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.lemonhref {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #499e08;
+}
+
+#blueish {
+    background-color: #dff2d6;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+#line {
+    height: 2px;
+    background-color: green;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.trial {
+    cursor: pointer;
+}
+
+.trial:hover #line {
+    width: 60%;
+    transition: 1s;
+}
+
+#table {
+    height: 100vh;
+    background-color: #f3f1f1;
+    padding-top: 30px;
+}
+
+.tableBody {
+    display: flex;
+}
+
+.tableHead {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.booked {
+    display: flex;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    /* margin-top: 1px */
+}
+
+th,
+td {
+    border: 1px solid #022e0e;
+    width: 40%;
+    color: whitesmoke;
+    padding-left: 2px;
+}
+
+th {
+    height: 4rem;
+    font-size: 1.5rem;
+}
+
+td {
+    height: 3rem;
+    font-size: 15px;
+}
+
+th,
+.row2 {
+    background-color: #136335;
+}
+
+.row1 {
+    background-color: #075729;
+}
+
+.row3 {
+    background: #003f11;
+    height: 5rem;
+    padding: 5px;
+}
+
+.btn {
+    background: #78d226;
+    color: whitesmoke;
+    padding: 5px;
+    width: 100%;
+    height: 45px;
+}
+
+.dpara {
+    margin-left: 150px;
+    margin-top: 80px
+}
+
+#undertable {
+    height: 40vh;
+    background: white;
+    padding-top: 40px;
+}
+
+.they {
+    display: flex;
+}
+
+.theyh1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.companies {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px
+}
+
+.companies img {
+    margin: auto;
+}
+
+#footer {
+    height: 100vh;
+    background: radial-gradient(rgb(34, 30, 30) 15%, transparent 6%) 0 0, radial-gradient(rgb(44, 43, 43) 5%, transparent 16%) 18px 18px, radial-gradient(rgba(36, 29, 29, 0.1) 5%, transparent 2%) 0 10px, radial-gradient(rgba(29, 23, 23, 0.1) 5%, transparent 5%) 18px 19px;
+    background-color: #083d10;
+    background-size: 12px 12px;
+}
+
+.dark-green {
+    background-color: #0a3010;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.card-side {
+    width: 80%;
+    cursor: pointer;
+}
+
+.card-btn {
+    background-color: #a2d29b;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.list {
+    margin-top: 25px;
+    list-style: square;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.dark-green:hover {
+    background-color: #075729;
+}
